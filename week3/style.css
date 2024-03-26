@@ -1,0 +1,74 @@
+/* Style pour les liens actifs et survolés */
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:hover,
+.navbar-nav > li.active > a {
+    color: #FFD700; /* Couleur dorée pour les liens actifs et survolés */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	border: none;
+	background-color: #191970; /* Bleu nuit */
+	color: skyblue; /* Bleu ciel */
+}
+
+body {
+	background-color: #191970; /* Bleu nuit */
+	color:white;
+}
+
+.glyphicon {
+	font-size: 60px;
+	color: skyblue; /* Bleu ciel */
+}
+
+.center {
+	width: 90%;
+	background-color: grey;
+}
+
+.container {
+	background-color: grey;
+}
+
+.text-center {
+	font-size: 60px;
+}
+
+h2 {
+	text-align: center;
+}
+
+#myNavbar ul li .nav-link {
+	color: skyblue; /* Bleu ciel */
+	text-decoration: none; /* Supprimer le soulignement des liens */
+	cursor: pointer; /* Afficher le curseur comme un pointeur au survol des liens */
+}
+
+#myNavbar ul li .nav-link:hover {
+	color: cyan; /* Couleur de survol pour les liens */
+	text-decoration: underline; /* Soulignement au survol des liens */
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+  color: #191970; /* Couleur bleu nuit */
+  border: 2px solid #191970; /* Bordure avec la couleur bleu nuit */
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 16px;
+  text-decoration: none;
+  display: none;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.back-to-top.visible {
+  display: inline-block;
+}
